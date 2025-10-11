@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="container">
+
+        <form action="/send" method="POST" class="contact-form">
+            <br />
+            <div class="form-section">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name" placeholder="John Smith" style="display: flex; justify-content: start; align-items: start;"required>
+            </div>
+
+
+            <br /><br />
+
+            <div class="form-section">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email" placeholder="example@gmail.com" style="display: flex; justify-content: start; align-items: start;"required>
+            </div>
+
+            <br /><br />
+
+            <div class="form-section">
+                <label for="subject">Subject:</label>
+                <input type="text" name="subject" id="subject" placeholder="Reason for email" style="display: flex; justify-content: start; align-items: start;"required>
+            </div>
+
+            <br /><br />
+
+            <div class="form-section">
+                <label for="message">Message:</label>
+                <textarea type="text" name="message" id="message" placeholder="Type your message here..." style="width: 300px; height: 200px; display: flex; justify-content: start; align-items: start;"required></textarea>
+            </div>
+
+            <br /><br />
+
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    
+</body>
+</html>
